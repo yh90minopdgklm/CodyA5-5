@@ -1,2 +1,2 @@
 # `.dockerignore`에 관하여
-`.dockerignore`는 어떤 파일이나 디렉토리가 `docker build`시 제외되어야 하는지 설정하는 파일로, Docker image에 필요하지 않은 파일이 포함되는 것을 막는 필터 역할을 합니다.
+`.dockerignore`는 어떤 파일이나 디렉토리가 `docker build`시 제외되어야 하는지 설정하는 파일로, Docker image에 필요하지 않은 파일이 포함되는 것을 막는 필터 역할을 합니다. 이 파일을 활용해서 비밀번호를 포함한 파일, git 디렉토리나 ignore 파일들, Dockerfile 등에 담긴 공개하고 싶지 않은 정보들이 실수로라도 Docker image에 포함되는 것을 막을 수 있습니다.
